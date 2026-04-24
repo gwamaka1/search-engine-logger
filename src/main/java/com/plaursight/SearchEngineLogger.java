@@ -25,8 +25,9 @@ public class SearchEngineLogger {
                else {
                    logAction("search : " + searchTerm);
                }
-               scanner.close();
+
            }
+           scanner.close();
 
        } catch (IOException e) {
            throw new RuntimeException(e);
